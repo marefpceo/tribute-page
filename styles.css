@@ -49,6 +49,7 @@ figcaption {
 
 #tribute-info {
   display: block;
+  text-align: center;
   margin: 15px auto;
   width: 80%;
 }
@@ -57,10 +58,27 @@ h2 {
   text-align: center;
 }
 
+#tribute-info ul,
+blockquote {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#tribute-info ul li {
+  margin: 20px;
+}
 .bold {
   font-weight: 700;
 }
 
 blockquote {
-  margin: 0;
+  padding: 10px 20px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+#tribute-info p {
+  font-size: 1.1rem;
+  margin: 20px auto;
 }
